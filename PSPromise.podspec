@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PSPromise"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Promise for iOS."
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   PSPromise是Promise模式的iOS实现，用于解决回调金字塔、代码顺序混乱等问题.
                        DESC
 
-  s.homepage         = "https://github.com/alan-yeh/PSPromise"
+  s.homepage         = "https://github.com/poi-son/PSPromise"
   s.license          = 'MIT'
   s.author           = { "Alan Yeh" => "git@yerl.cn" }
-  s.source           = { :git => "https://github.com/alan-yeh/PSPromise.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/poi-son/PSPromise.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
